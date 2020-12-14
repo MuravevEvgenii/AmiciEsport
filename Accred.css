@@ -1,0 +1,209 @@
+﻿body {
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 1443px;
+    height: 714px;
+}
+
+Accred {
+    background-size: cover;
+    
+}
+
+.image1{
+    top: 0px;
+    left: 0px;
+}
+
+section {
+    width: 1495px;
+    height: 60px;
+    display: flex;
+    opacity: 0.8;
+}
+
+.file {
+    position: absolute;
+}
+
+.but {
+    position: absolute;
+    top: 165px;
+    left: 371px;
+}
+/*menu*/
+
+.dws-menu * {
+    margin: 0 auto 0 0px;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+    .dws-menu > ul li {
+        border-right: 1px solid #c7c8ca;
+        top: 3px;
+        left: 1px;
+    }
+
+        .dws-menu > ul li:first-child {
+            border-left: 1px solid #b2b3b5;
+        }
+
+        .dws-menu > ul li:last-child {
+            border-right: 1px solid #babbbd;
+        }
+
+        .dws-menu > ul li > a i.fa {
+            /*position: absolute;*/
+            top: 15px;
+            left: 12px;
+            font-size: 18px;
+        }
+
+        .dws-menu > ul li a {
+            display: block;
+            padding: 15px 30px 15px 40px;
+            font-size: 18px;
+            color: snow;
+            font-family: MatchTV;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+.dws-menu li a:hover {
+    background-color: orangered;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+}
+
+    .dws-menu li > ul li a {
+        padding: 10px;
+        text-transform: none;
+        background: oranged;
+    }
+
+    .dws-menu li > ul li ul {
+        position: absolute;
+        right: -150px;
+        top: 0;
+    }
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*menu end*/
+
+.lblName{
+    position:absolute;
+    top: 97px;
+    left: 219px;
+}
+
+.tbName {
+    position: absolute;
+    top: 123px;
+    left: 216px;
+    right: 1438px;
+}
+
+.lblMiddle {
+    position: absolute;
+    top: 97px;
+    left: 439px;
+}
+
+.tbMiddle {
+    position: absolute;
+    top: 121px;
+    left: 434px;
+    height: 17px;
+    right: 956px;
+}
+
+.lblStatus {
+    position: absolute;
+    top: 97px;
+    left: 642px;
+}
+
+.DlStatus {
+    position: absolute;
+    top: 123px;
+    left: 641px;
+}
+
+.tbSurn {
+    position: absolute;
+    top: 123px;
+    left: 8px;
+}
+
+.lblSurn {
+    position: absolute;
+    top: 97px;
+    left: 12px;
+    height: 25px;
+    width: 110px;
+}
+
+.lblDate {
+    position: absolute;
+    top: 97px;
+    left: 848px;
+}
+
+.tbDate {
+    position: absolute;
+    top: 123px;
+    left: 843px;
+}
+
+.tbTur {
+    position: absolute;
+    top: 123px;
+    left: 1055px;
+}
+
+.lbNameTourn {
+    position: absolute;
+    top: 97px;
+    left: 1033px;
+    width: 254px;
+}
+
+.BtForm {
+    position: absolute;
+    top: 268px;
+    height: 135px;
+    left: 532px;
+    width: 414px;
+}
+
+.btPrint {
+    position: absolute;
+    border-style:none;
+    background-color:lightblue;
+    top: 172px;
+    left: 594px;
+}

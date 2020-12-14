@@ -1,0 +1,32 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/Заставка.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.btPlayers {
+    position: absolute;
+    top: 465px;
+    left: 1211px;
+    height: 52px;
+    width: 176px;
+}
+
+.btTeams {
+    position: absolute;
+    top: 462px;
+    left: 529px;
+    height: 56px;
+    width: 202px;
+}
+
+.btHome {
+    position: absolute;
+    top: 50px;
+    left: 21px;
+    height: 57px;
+    width: 59px;
+}

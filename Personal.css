@@ -1,0 +1,313 @@
+﻿body {
+    margin:0;
+    padding:0;
+    zoom: 85%;
+}
+
+.ibAcc{
+    position:absolute;
+    top: 44px;
+    left: 1383px;
+    height: 46px;
+    width: 48px;
+}
+
+.gvPersonal {
+    position: absolute;
+    top: 197px;
+    left: 614px;
+    height: 359px;
+    width: 658px;
+}
+
+/*menu*/
+
+.dws-menu * {
+    margin: 0 auto 0 0px;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+    .dws-menu > ul li {
+        border-right: 1px solid #c7c8ca;
+        top: 3px;
+        left: 1px;
+    }
+
+        .dws-menu > ul li:first-child {
+            border-left: 1px solid #b2b3b5;
+        }
+
+        .dws-menu > ul li:last-child {
+            border-right: 1px solid #babbbd;
+        }
+
+        .dws-menu > ul li > a i.fa {
+            /*position: absolute;*/
+            top: 15px;
+            left: 12px;
+            font-size: 18px;
+        }
+
+        .dws-menu > ul li a {
+            display: block;
+            padding: 15px 30px 15px 40px;
+            font-size: 18px;
+            color: snow;
+            font-family: MatchTV;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+    width: 139px;
+}
+
+.dws-menu li a:hover {
+    background-color: orangered;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+}
+
+    .dws-menu li > ul li a {
+        padding: 10px;
+        text-transform: none;
+        background: oranged;
+    }
+
+    .dws-menu li > ul li ul {
+        position: absolute;
+        right: -150px;
+        top: 0;
+    }
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*menu end*/
+
+
+.lbAmici {
+    position: absolute;
+    top: -80px;
+    left: 122px;
+    height: 56px;
+    margin-top: 15px;
+}
+
+.lbSurn {
+    position: absolute;
+    top: 131px;
+    left: 11px;
+    height: 41px;
+    width: 161px;
+}
+
+.lblName {
+    position: absolute;
+    top: 182px;
+    left: 47px;
+    height: 40px;
+    width: 81px;
+    text-align: left;
+}
+
+.tbSurname {
+    position: absolute;
+    top: 144px;
+    left: 206px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.tbName {
+    position: absolute;
+    top: 189px;
+    left: 204px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.btAuth {
+    position: absolute;
+    top: 434px;
+    left: 110px;
+    border-radius: 10px;
+    height: 66px;
+    width: 377px;
+    /*opacity: 100;*/
+}
+
+.lbtReg {
+    position: absolute;
+    top: 336px;
+    left: 214px;
+    height: 40px;
+}
+
+.lblMiddleName {
+    position: absolute;
+    top: 238px;
+    left: 13px;
+    height: 39px;
+}
+
+.tbMiddleName {
+    position: absolute;
+    top: 246px;
+    left: 204px;
+    height: 20px;
+    width: 268px;
+    /*border-radius: 10px;*/
+}
+
+.lbLogin {
+    position: absolute;
+    top: 291px;
+    left: 30px;
+    height: 36px;
+    bottom: 188px;
+}
+
+.LbPass {
+    position: absolute;
+    top: 346px;
+    left: 25px;
+    height: 40px;
+}
+
+.LbConfirmPass {
+    position: absolute;
+    top: 331px;
+    left: 0px;
+    height: 79px;
+    width: 211px;
+    text-align: center;
+}
+
+.tbConfPass {
+    position: absolute;
+    top: 354px;
+    left: 203px;
+    height: 20px;
+    width: 268px;
+    /*border-radius: 10px;*/
+}
+
+.tbPass {
+    position: absolute;
+    top: 359px;
+    left: 198px;
+    height: 20px;
+    width: 268px;
+    /*border-radius: 10px;*/
+}
+
+.tbLogin {
+    position: absolute;
+    top: 302px;
+    left: 204px;
+    height: 20px;
+    width: 268px;
+    /*border-radius: 10px;*/
+}
+
+.logo {
+    position: absolute;
+}
+
+.lbldlz {
+    position: absolute;
+    top: 419px;
+    left: 9px;
+    height: 39px;
+}
+
+.lbDolz {
+    position: absolute;
+    top: 412px;
+    left: 199px;
+    height: 79px;
+    width: 268px;
+}
+
+.btInsert {
+    position: absolute;
+    top: 504px;
+    left: 9px;
+    width: 119px;
+    height: 40px;
+    right: 1432px;
+}
+
+.btUpdate {
+    position: absolute;
+    top: 505px;
+    left: 147px;
+    height: 40px;
+    width: 126px;
+}
+
+.btHome {
+    position: absolute;
+    top: 4px;
+    left: 1238px;
+}
+
+.btDelete {
+    position: absolute;
+    top: 506px;
+    left: 297px;
+    height: 37px;
+    width: 110px;
+}
+
+.tbCancel {
+    position: absolute;
+    top: 146px;
+    left: 1011px;
+}
+
+.tbSearch {
+    position: absolute;
+    top: 143px;
+    left: 806px;
+    height: 25px;
+    width: 169px;
+}
+
+.btSearch {
+    position: absolute;
+    top: 140px;
+    left: 705px;
+    height: 33px;
+    width: 77px;
+}
+
+.btFiltr {
+    position: absolute;
+    top: 139px;
+    left: 591px;
+    height: 34px;
+    width: 97px;
+}

@@ -1,0 +1,303 @@
+﻿body {
+    margin:0;
+    padding:0;
+    zoom:90%;
+}
+
+
+.logo {
+    position: absolute;
+}
+
+section {
+    width: 1656px;
+    height: 66px;
+    display: flex;
+    opacity: 0.8;
+}
+
+.gvTurnir{
+    position:absolute;
+    top: 193px;
+    left: 484px;
+    height: 292px;
+    width: 676px;
+}
+
+/*menu*/
+
+.dws-menu * {
+    margin: 0 auto 0 15px;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+    .dws-menu > ul li {
+        border-right: 1px solid #c7c8ca;
+        top: 3px;
+        left: 1px;
+    }
+
+        .dws-menu > ul li:first-child {
+            border-left: 1px solid #b2b3b5;
+        }
+
+        .dws-menu > ul li:last-child {
+            border-right: 1px solid #babbbd;
+        }
+
+        .dws-menu > ul li > a i.fa {
+            /*position: absolute;*/
+            top: 15px;
+            left: 12px;
+            font-size: 18px;
+        }
+
+        .dws-menu > ul li a {
+            display: block;
+            padding: 15px 30px 15px 40px;
+            font-size: 18px;
+            color: snow;
+            font-family: MatchTV;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+.dws-menu li a:hover {
+    background-color: orangered;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+}
+
+    .dws-menu li > ul li a {
+        padding: 10px;
+        text-transform: none;
+        background: oranged;
+    }
+
+    .dws-menu li > ul li ul {
+        position: absolute;
+        right: -150px;
+        top: 0;
+    }
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*menu end*/
+
+
+
+.lbNameTurn{
+    position:absolute;
+    top: 110px;
+    left: 24px;
+    height: 38px;
+}
+
+.tbNameTurn{
+    position:absolute;
+    top: 144px;
+    left: 12px;
+    height: 25px;
+    width: 261px;
+}
+
+.lbNumbTms{
+    position:absolute;
+    top: 194px;
+    left: 10px;
+}
+
+.tbNumb {
+    position: absolute;
+    top: 239px;
+    left: 13px;
+    width: 258px;
+}
+
+.lblDate {
+    position: absolute;
+    top: 290px;
+    left: 13px;
+}
+
+.tbWord{
+    position:absolute;
+    top: 107px;
+    left: 922px;
+    height: 40px;
+    width: 48px;
+}
+
+.btExcel {
+    position: absolute;
+    top: 108px;
+    height: 40px;
+    width: 42px;
+    left: 984px;
+}
+
+.tbDate {
+    position: absolute;
+    top: 341px;
+    left: 12px;
+    width: 262px;
+}
+
+
+.btPrint {
+    position: absolute;
+    top: 115px;
+    left: 1056px;
+    width: 54px;
+}
+
+.lblMoney {
+    position: absolute;
+    top: 393px;
+    left: 9px;
+    right: 1293px;
+}
+
+.tbMoney {
+    position: absolute;
+    top: 435px;
+    left: 10px;
+    width: 266px;
+}
+
+.lbReglament {
+    position: absolute;
+    top: 501px;
+    left: 10px;
+    height: 67px;
+    width: 176px;
+}
+
+.btInsert {
+    position: absolute;
+    top: 764px;
+    left: 9px;
+    width: 98px;
+    height: 30px;
+    right: 1453px;
+}
+
+.btUpdate {
+    position: absolute;
+    top: 762px;
+    left: 129px;
+    height: 34px;
+    width: 124px;
+}
+
+.btHome {
+    position: absolute;
+    top: 4px;
+    left: 1238px;
+    height: 48px;
+    width: 64px;
+}
+
+.btDelete {
+    position: absolute;
+    top: 760px;
+    left: 283px;
+    height: 37px;
+    width: 110px;
+}
+
+.tbCancel {
+    position: absolute;
+    top: 105px;
+    left: 398px;
+    height: 34px;
+    width: 90px;
+}
+
+.tbSearch {
+    position: absolute;
+    top: 108px;
+    left: 728px;
+    height: 25px;
+    width: 169px;
+}
+
+.btSearch {
+    position: absolute;
+    top: 105px;
+    left: 625px;
+    height: 33px;
+    width: 77px;
+}
+
+.btFiltr {
+    position: absolute;
+    top: 105px;
+    left: 509px;
+    height: 34px;
+    width: 97px;
+}
+
+.lbFormat {
+    position: absolute;
+    top: 595px;
+    left: 216px;
+    height: 59px;
+    width: 171px;
+}
+
+.lbArena {
+    position: absolute;
+    top: 506px;
+    left: 215px;
+    height: 55px;
+    width: 176px;
+}
+
+.lbCity {
+    position: absolute;
+    top: 699px;
+    left: 216px;
+    height: 50px;
+    width: 170px;
+}
+
+.lbDiscipline {
+    position: absolute;
+    top: 695px;
+    left: 15px;
+    height: 55px;
+    width: 157px;
+}
+
+.lbPersonal {
+    position: absolute;
+    top: 593px;
+    left: 12px;
+    height: 69px;
+    width: 168px;
+}
+

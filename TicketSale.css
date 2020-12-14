@@ -1,0 +1,190 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/d4bf8ad49277349c5b9f80cc9233d219.jpg');
+    height: 816px;
+    width: 100vw;
+    background-size: cover;
+}
+.ibtGame {
+    position: absolute;
+    width: 308px;
+    height: 275px;
+    /*background-image:url('Pict/Игроки.png');*/
+    top: 378px;
+    left: 156px;
+}
+
+.ibAcc {
+    position: absolute;
+    top: 24px;
+    left: 1427px;
+}
+
+.rect1 {
+    position: absolute;
+    width: 479px;
+    height: 661px;
+    background: black;
+    opacity: 0.8;
+    top: 150px;
+    left: 620px;
+}
+.lblTurn {
+    position: absolute;
+    top: 169px;
+    left: 755px;
+}
+
+.lbTurn {
+    position: absolute;
+    top: 202px;
+    left: 720px;
+    height: 55px;
+    width: 266px;
+}
+
+.LblCatA {
+    position: absolute;
+    top: 334px;
+    left: 650px;
+    height: 34px;
+    width: 172px;
+    text-align: center;
+    bottom: 218px;
+}
+
+.lblPriceA {
+    position: absolute;
+    top: 301px;
+    left: 862px;
+    height: 35px;
+    width: 142px;
+    text-align: center;
+}
+
+.LblCatB {
+    position: absolute;
+    top: 444px;
+    left: 644px;
+    height: 57px;
+    width: 184px;
+    text-align: center;
+}
+
+.lblPriceB {
+    position: absolute;
+    top: 405px;
+    left: 863px;
+    height: 36px;
+    width: 142px;
+    text-align: center;
+}
+
+.LblCatC {
+    position: absolute;
+    top: 573px;
+    left: 643px;
+    height: 42px;
+    width: 181px;
+    text-align: center;
+}
+
+.lblPriceC {
+    position: absolute;
+    top: 533px;
+    left: 863px;
+    height: 37px;
+    width: 142px;
+    text-align: center;
+}
+
+
+.LblCatVip {
+    position: absolute;
+    left: 647px;
+    height: 33px;
+    width: 169px;
+    text-align: center;
+    top: 677px;
+}
+
+.lblPriceVip {
+    position: absolute;
+    top: 642px;
+    left: 863px;
+    height: 30px;
+    width: 142px;
+    text-align: center;
+}
+
+
+.btA {
+    position: absolute;
+}
+
+.btB {
+    position: absolute;
+    top: 434px;
+    left: 1045px;
+}
+
+.btC {
+    position: absolute;
+    top: 555px;
+    left: 1036px;
+}
+
+.BtVip {
+    position: absolute;
+    top: 663px;
+    left: 1041px;
+}
+
+.tbCatA {
+    position: absolute;
+    top: 340px;
+    left: 850px;
+    height: 19px;
+    width: 177px;
+}
+
+.tbCatB {
+    position: absolute;
+    top: 452px;
+    left: 853px;
+    height: 18px;
+    width: 175px;
+}
+
+.tbCatC{
+    position: absolute;
+    top: 579px;
+    left: 849px;
+    height: 17px;
+    width: 175px;
+}
+
+.tbCatVip{
+    position:absolute;
+    top: 686px;
+    left: 848px;
+    height: 15px;
+    width: 177px;
+}
+
+.btConfirm {
+    position: absolute;
+    top: 827px;
+    left: 833px;
+    width: 262px;
+    height: 45px;
+}
+
+.btBack {
+    position: absolute;
+    top: 827px;
+    left: 625px;
+    height: 46px;
+    width: 120px;
+}

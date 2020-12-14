@@ -1,0 +1,156 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/rIrJ7pQdFrw.jpg');
+    height: 100vh;
+    width: 1738px;
+    background-size: cover;
+    zoom: 80%;
+}
+
+section {
+    width: 100vw;
+    height: 66px;
+    display: flex;
+    opacity: 0.8;
+}
+
+.rect1 {
+    position: absolute;
+    width: 565px;
+    height: 521px;
+    background-color: azure;
+    opacity: 0.8;
+    top: 195px;
+    left: 690px;
+}
+
+.lbAmici {
+    position: absolute;
+    top: -80px;
+    left: 122px;
+    height: 56px;
+    margin-top: 15px;
+}
+
+.lbSurn {
+    position: absolute;
+    top: 38px;
+    left: 9px;
+    height: 50px;
+    width: 161px;
+}
+
+.lblName {
+    position: absolute;
+    top: 93px;
+    left: 48px;
+    height: 40px;
+    width: 81px;
+    text-align: left;
+}
+
+.tbSurname {
+    position: absolute;
+    top: 47px;
+    left: 194px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.tbName {
+    position: absolute;
+    top: 101px;
+    left: 194px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.btAuth {
+    position: absolute;
+    top: 434px;
+    left: 110px;
+    border-radius: 10px;
+    height: 66px;
+    width: 377px;
+    /*opacity: 100;*/
+}
+
+.lbtReg {
+    position: absolute;
+    top: 336px;
+    left: 214px;
+    height: 40px;
+}
+
+.lblMiddleName {
+    position: absolute;
+    top: 148px;
+    left: 7px;
+    height: 27px;
+}
+
+.tbMiddleName {
+    position: absolute;
+    top: 153px;
+    left: 195px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.lbLogin {
+    position: absolute;
+    top: 208px;
+    left: 26px;
+    height: 38px;
+}
+
+.LbPass {
+    position: absolute;
+    top: 267px;
+    left: 28px;
+    height: 40px;
+}
+
+.LbConfirmPass {
+    position: absolute;
+    top: 331px;
+    left: 0px;
+    height: 79px;
+    width: 211px;
+    text-align: center;
+}
+
+.tbConfPass {
+    position: absolute;
+    top: 354px;
+    left: 203px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.tbPass {
+    position: absolute;
+    top: 272px;
+    left: 195px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.tbLogin {
+    position: absolute;
+    top: 213px;
+    left: 197px;
+    height: 20px;
+    width: 268px;
+    border-radius: 10px;
+}
+
+.logo {
+    position: absolute;
+}

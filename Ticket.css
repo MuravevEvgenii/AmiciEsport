@@ -1,0 +1,215 @@
+﻿body {
+    height: 521px;
+    margin: 0;
+    padding: 0;
+}
+
+.gvTicket{
+    position:absolute;
+}
+
+
+/*menu*/
+
+.dws-menu * {
+    margin: 0 auto 0 0px;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+    .dws-menu > ul li {
+        border-right: 1px solid #c7c8ca;
+        top: 3px;
+        left: 1px;
+    }
+
+        .dws-menu > ul li:first-child {
+            border-left: 1px solid #b2b3b5;
+        }
+
+        .dws-menu > ul li:last-child {
+            border-right: 1px solid #babbbd;
+        }
+
+        .dws-menu > ul li > a i.fa {
+            /*position: absolute;*/
+            top: 15px;
+            left: 12px;
+            font-size: 18px;
+        }
+
+        .dws-menu > ul li a {
+            display: block;
+            padding: 15px 30px 15px 40px;
+            font-size: 18px;
+            color: snow;
+            font-family: MatchTV;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+.dws-menu li a:hover {
+    background-color: orangered;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+}
+
+    .dws-menu li > ul li a {
+        padding: 10px;
+        text-transform: none;
+        background: oranged;
+    }
+
+    .dws-menu li > ul li ul {
+        position: absolute;
+        right: -150px;
+        top: 0;
+    }
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*menu end*/
+
+.tbSearch {
+    position: absolute;
+    top: 150px;
+    left: 760px;
+    height: 25px;
+    width: 169px;
+}
+
+.btSearch {
+    position: absolute;
+    top: 149px;
+    left: 672px;
+    height: 33px;
+    width: 77px;
+}
+
+.ibAcc {
+    position: absolute;
+    top: 55px;
+    left: 1136px;
+}
+
+.ibSet {
+    position: absolute;
+    top: 55px;
+    left: 1065px;
+    height: 36px;
+}
+
+.btHome {
+    position: absolute;
+}
+
+.btFiltr {
+    position: absolute;
+    top: 152px;
+    left: 561px;
+    height: 34px;
+    width: 97px;
+}
+
+.tbCancel {
+    position: absolute;
+    top: 149px;
+    left: 955px;
+}
+
+.lbNameTurn {
+    position: absolute;
+    top: 229px;
+    left: 19px;
+    height: 47px;
+}
+
+.tbNameTurn {
+    position: absolute;
+    top: 270px;
+    left: 13px;
+    height: 25px;
+    width: 261px;
+}
+
+.lbCat {
+    position: absolute;
+    top: 152px;
+    left: 25px;
+}
+
+.dlCateg {
+    position: absolute;
+    top: 187px;
+    left: 21px;
+}
+
+.lbReglament {
+    position: absolute;
+    top: 354px;
+    left: 13px;
+    height: -4px;
+}
+
+.LblTourn {
+    position: absolute;
+    right: 1359px;
+    top: 312px;
+    bottom: 232px;
+}
+
+
+.btInsert {
+    position: absolute;
+    top: 467px;
+    left: 26px;
+    width: 111px;
+    height: 41px;
+    right: 1332px;
+}
+
+.btUpdate {
+    position: absolute;
+    top: 467px;
+    left: 152px;
+    height: 40px;
+    width: 124px;
+}
+
+.btHome {
+    position: absolute;
+    top: 46px;
+    left: 980px;
+    height: 56px;
+    width: 63px;
+}
+
+.btDelete {
+    position: absolute;
+    top: 469px;
+    left: 298px;
+    height: 35px;
+    width: 110px;
+}

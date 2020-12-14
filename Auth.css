@@ -1,0 +1,97 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/rIrJ7pQdFrw.jpg');
+    height: 100vh;
+    width: 1738px;
+    background-size: cover;
+    zoom: 80%;
+}
+
+section {
+    width: 100vw;
+    height: 66px;
+    display: flex;
+    opacity: 0.8;
+}
+
+.rect1 {
+    position: absolute;
+    width: 565px;
+    height: 423px;
+    background-color:azure;
+    opacity: 0.8;
+    top: 293px;
+    left: 690px;
+}
+
+.lbAmici {
+    position: absolute;
+    top: -80px;
+    left: 122px;
+    height: 56px;
+    margin-top: 15px;
+}
+
+.lbLogin {
+    position: absolute;
+    top: 38px;
+    left: 24px;
+    height: 50px;
+    width: 126px;
+}
+
+.lbPass {
+    position: absolute;
+    top: 131px;
+    left: 15px;
+}
+
+.tbLogin {
+    position: absolute;
+    top: 45px;
+    left: 195px;
+    height: 32px;
+    width: 301px;
+    border-radius: 10px;
+}
+.tbSurName {
+    position: absolute;
+    top: 145px;
+    left: 192px;
+    height: 32px;
+    width: 301px;
+    border-radius: 10px;
+}
+
+.tbPass {
+    position: absolute;
+    top: 145px;
+    left: 192px;
+    height: 32px;
+    width: 301px;
+    border-radius: 10px;
+}
+
+.btAuth {
+    position: absolute;
+    top: 208px;
+    left: 100px;
+    border-radius: 10px;
+    height: 93px;
+    width: 423px;
+    /*opacity: 100;*/
+}
+
+.lbtReg {
+    position: absolute;
+    top: 336px;
+    left: 214px;
+    height: 40px;
+}
+
+.lblTitle {
+    position: absolute;
+    top: 14px;
+    left: 221px;
+}

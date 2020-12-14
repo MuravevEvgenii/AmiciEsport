@@ -1,0 +1,51 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/C-BE1f9W0AE9BNm.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.rect1 {
+    position: absolute;
+    width: 296px;
+    height: 397px;
+    background: #4da1f7;
+    opacity: 0.8;
+    left: 488px;
+    bottom: 197px;
+}
+
+
+.rect3 {
+    position: absolute;
+    width: 300px;
+    height: 405px;
+    background-color: limegreen;
+    top: 222px;
+    left: 1142px;
+    opacity: 0.8;
+}
+
+.tbTick {
+    position: absolute;
+    top: 252px;
+    left: 1151px;
+}
+
+.ibTicket {
+    position: absolute;
+    top: 383px;
+    left: 520px;
+    height: 174px;
+    width: 214px;
+}
+
+.btTicket {
+    position: absolute;
+    top: 246px;
+    left: 500px;
+    text-align: center;
+    height: 176px;
+}

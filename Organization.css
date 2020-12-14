@@ -1,0 +1,175 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/DWpPaKEXUAAHW4D.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+section{
+    margin: 0;
+    padding 0;
+    background-color: black;
+    opacity: 0.8;
+}
+
+logo {
+    position:absolute;
+}
+
+.btHome {
+    position: absolute;
+    top: 25px;
+    left: 1298px;
+    height: 73px;
+    width: 78px;
+}
+
+.tbNameTurn {
+    position: absolute;
+    top: 286px;
+    left: 62px;
+    height: 41px;
+}
+
+.lbNameTurn {
+    position: absolute;
+    top: 243px;
+    left: 64px;
+}
+
+.rect1 {
+    position: absolute;
+    width: 565px;
+    height: 481px;
+    background-color: black;
+    opacity: 0.8;
+    top: 236px;
+    left: 38px;
+}
+
+.rect2 {
+    position: absolute;
+    width: 565px;
+    height: 488px;
+    background-color: black;
+    opacity: 0.8;
+    top: 230px;
+    left: 1055px;
+}
+
+.lbNumbTms {
+    position: absolute;
+    top: 340px;
+    left: 63px;
+}
+
+.tbNumb {
+    position: absolute;
+    top: 385px;
+    left: 62px;
+    height: 39px;
+}
+
+.lblDate {
+    position: absolute;
+    top: 432px;
+    left: 62px;
+}
+
+.tbDate {
+    position: absolute;
+    top: 482px;
+    left: 58px;
+    width: 279px;
+    height: 38px;
+    bottom: 143px;
+}
+
+.lblMoney {
+    position: absolute;
+    top: 535px;
+    left: 59px;
+    right: 1243px;
+}
+
+.tbMoney {
+    position: absolute;
+    top: 571px;
+    left: 58px;
+    width: 277px;
+    height: 42px;
+}
+
+.lbReglament {
+    position: absolute;
+    top: 289px;
+    left: 1066px;
+    height: 74px;
+    width: 190px;
+}
+
+.lbFormat {
+    position: absolute;
+    top: 294px;
+    left: 1407px;
+    height: 70px;
+    width: 181px;
+}
+
+.lbArena {
+    position: absolute;
+    top: 425px;
+    left: 1404px;
+    height: 62px;
+    width: 187px;
+}
+
+.lbCity {
+    position: absolute;
+    top: 418px;
+    left: 1069px;
+    height: 70px;
+    width: 187px;
+}
+
+.lbDiscipline {
+    position: absolute;
+    top: 548px;
+    left: 1071px;
+    height: 65px;
+    width: 182px;
+}
+
+.lbPersonal {
+    position: absolute;
+    top: 544px;
+    left: 1406px;
+    height: 63px;
+    width: 180px;
+}
+
+.Btorg{
+    position: absolute;
+    top: 409px;
+    left: 637px;
+    width: 399px;
+    height: 88px;
+}
+
+.Btorg1 {
+    position: absolute;
+    top: 437px;
+    left: 638px;
+    width: 399px;
+    height: 88px;
+}
+
+.Info1 {
+    position: absolute;
+    top: 263px;
+    left: 556px;
+    height: 145px;
+    width: 847px;
+}

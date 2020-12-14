@@ -1,0 +1,94 @@
+﻿body {
+    background-image: url('Pict/d4bf8ad49277349c5b9f80cc9233d219.jpg');
+    background-size: cover;
+}
+
+section {
+    width: 1727px;
+    height: 90px;
+    display: flex;
+    opacity: 0.8;
+}
+
+/*menu*/
+
+.dws-menu * {
+    margin: 0 auto 0 0px;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+    .dws-menu > ul li {
+        border-right: 1px solid #c7c8ca;
+        top: 3px;
+        left: 1px;
+    }
+
+        .dws-menu > ul li:first-child {
+            border-left: 1px solid #b2b3b5;
+        }
+
+        .dws-menu > ul li:last-child {
+            border-right: 1px solid #babbbd;
+        }
+
+        .dws-menu > ul li > a i.fa {
+            /*position: absolute;*/
+            top: 15px;
+            left: 12px;
+            font-size: 18px;
+        }
+
+        .dws-menu > ul li a {
+            display: block;
+            padding: 15px 30px 15px 40px;
+            font-size: 18px;
+            color: snow;
+            font-family: MatchTV;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+.dws-menu li a:hover {
+    background-color: orangered;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+}
+
+    .dws-menu li > ul li a {
+        padding: 10px;
+        text-transform: none;
+        background: oranged;
+    }
+
+    .dws-menu li > ul li ul {
+        position: absolute;
+        right: -150px;
+        top: 0;
+    }
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*menu end*/

@@ -1,0 +1,33 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/C-BE1f9W0AE9BNm.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.OrgTrn {
+    position: absolute;
+    top: 131px;
+    left: 270px;
+    height: 169px;
+    width: 424px;
+    opacity: 0.8;
+}
+
+.infoTrn {
+    position: absolute;
+    top: 148px;
+    width: 424px;
+    height: 169px;
+    opacity: 0.8;
+}
+
+.BtBack {
+    position: absolute;
+    top: 317px;
+    left: 827px;
+    height: 93px;
+    width: 201px;
+}

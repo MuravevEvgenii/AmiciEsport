@@ -1,0 +1,330 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pict/Blast.jpeg');
+    height: 80px;
+    width: 1727px;
+    background-size: cover;
+    zoom: 85%;
+}
+
+
+
+
+section{
+    width:1727px;
+    height:90px;
+    display:flex;
+    opacity:0.8;
+}
+
+
+
+/*menu*/
+
+.dws-menu * {
+    margin:  0 auto 0 0px;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+    .dws-menu > ul li {
+       
+        border-right: 1px solid #c7c8ca;
+    top: 3px;
+    left: 1px;
+}
+
+        .dws-menu > ul li:first-child {
+            border-left: 1px solid #b2b3b5;
+        }
+
+        .dws-menu > ul li:last-child {
+            border-right: 1px solid #babbbd;
+        }
+
+        .dws-menu > ul li > a i.fa {
+            /*position: absolute;*/
+            top: 15px;
+            left: 12px;
+            font-size: 18px;
+        }
+
+        .dws-menu > ul li a {
+            display: block;
+            padding: 15px 30px 15px 40px;
+            font-size: 18px;
+            color: snow;
+            font-family: MatchTV;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+.dws-menu li a:hover {
+    background-color: orangered;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+    
+}
+
+    .dws-menu li > ul li a {
+        padding: 10px;
+        text-transform: none;
+        background: oranged;
+    }
+
+    .dws-menu li > ul li ul {
+        position: absolute;
+        right: -150px;
+        top: 0;
+    }
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*menu end*/
+
+.sec2{
+    position:absolute; 
+    left:-1px;
+    right:114px;
+    top:145px;
+    bottom:-550px;
+    width:1737px;
+    height:688px;
+    display:flex;
+}
+
+.rect1 {
+    position:absolute;
+    width: 296px;
+    height: 120px;
+    background: #4da1f7;
+    opacity:0.8;
+}
+
+.ibSet {
+    position: absolute;
+}
+
+.rect2 {
+    position: absolute;
+    width: 301px;
+    height: 442px;
+    background-color: hotpink;
+    top: 180px;
+    left: 512px;
+    opacity: 0.8;
+}
+
+    .rect2 :hover {
+        width: 351px;
+        height: 452px;
+    }
+
+.rect3 {
+    position: absolute;
+    width: 300px;
+    height: 442px;
+    background-color:limegreen;
+    top: 182px;
+    left: 939px;
+    opacity: 0.8;
+}
+
+.rect4 {
+    position: absolute;
+    width: 300px;
+    height: 442px;
+    background-color:darkorange;
+    top: 183px;
+    left: 1376px;
+    opacity:0.8;
+
+}
+
+.ibtGame {
+    position: absolute;
+    width: 308px;
+    height: 275px;
+    /*background-image:url('Pict/Игроки.png');*/
+    top: 378px;
+    left: 85px;
+}
+
+.ibtTourn {
+    position: absolute;
+    width: 287px;
+    height: 126px;
+    /*background-image:url('Pict/Игроки.png');*/
+    top: 446px;
+    left: 519px;
+    right: 932px;
+}
+
+.IbtMarketing {
+    position: absolute;
+    width: 269px;
+    height: 250px;
+    /*background-image:url('Pict/Игроки.png');*/
+    top: 418px;
+    left: 975px;
+}
+
+.DanijelMotors {
+    position: absolute;
+}
+.imgAir {
+    position: absolute;
+    top: 648px;
+    left: 822px;
+    height: 87px;
+    width: 175px;
+}
+
+.ibAcc {
+    position: absolute;
+    top: 11px;
+    left: 1409px;
+}
+
+.imgYtn {
+    position: absolute;
+    top: 651px;
+    left: 1050px;
+    height: 88px;
+    width: 178px;
+}
+
+.ibtNight {
+    position: absolute;
+    top: 19px;
+    left: 1328px;
+    height: 21px;
+    width: 31px;
+}
+
+.lbGame {
+    position: absolute;
+    top: 201px;
+    left: 89px;
+    height: 159px;
+    width: 296px;
+    text-align: center;
+}
+
+.LbTable {
+    position: absolute;
+    height: 192px;
+    width: 268px;
+    top: 211px;
+    left: 1406px;
+}
+
+.ibTables {
+    position: absolute;
+    top: 406px;
+    left: 1448px;
+    height: 156px;
+    width: 156px;
+}
+
+.lbTourn {
+    position: absolute;
+    top: 199px;
+    left: 506px;
+    height: 169px;
+    width: 326px;
+    text-align: center;
+}
+
+.lbMark {
+    position: absolute;
+    top: 214px;
+    left: 986px;
+    height: 185px;
+}
+
+
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+
+.check
+{
+    position: absolute;
+    display:block;
+    width:410px;
+    height: 210px;
+    background: #092c3e;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .check {
+    background: #fff;
+    box-shadow: 0 0 0 1200px #092c3e;
+}
+
+.check:before
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+input[type="checkbox"]:checked ~ .check:before
+{
+    transform: translateX(-50px);
+}
+
+
+.check:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #092c3e;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
+}
+
+input[type="checkbox"]:checked ~ .check:after {
+    transform: translateX(0px);
+}

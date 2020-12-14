@@ -1,0 +1,170 @@
+﻿body {
+    background-image: url('Pict/rIrJ7pQdFrw.jpg');
+    width: 1500px;
+    background-size: cover;
+    zoom: 80%;
+    margin-left: 171px;
+}
+
+
+/*menu*/
+
+.dws-menu * {
+    margin: 0 auto 0 0px;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+    .dws-menu > ul li {
+        border-right: 1px solid #c7c8ca;
+        top: 3px;
+        left: 1px;
+    }
+
+        .dws-menu > ul li:first-child {
+            border-left: 1px solid #b2b3b5;
+        }
+
+        .dws-menu > ul li:last-child {
+            border-right: 1px solid #babbbd;
+        }
+
+        .dws-menu > ul li > a i.fa {
+            /*position: absolute;*/
+            top: 15px;
+            left: 12px;
+            font-size: 18px;
+        }
+
+        .dws-menu > ul li a {
+            display: block;
+            padding: 15px 30px 15px 40px;
+            font-size: 18px;
+            color: snow;
+            font-family: MatchTV;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+    width: 234px;
+}
+
+.dws-menu li a:hover {
+    background-color: orangered;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+}
+
+    .dws-menu li > ul li a {
+        padding: 10px;
+        text-transform: none;
+        background: oranged;
+    }
+
+    .dws-menu li > ul li ul {
+        position: absolute;
+        right: -150px;
+        top: 0;
+    }
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*menu end*/
+
+
+.rect1 {
+    position: absolute;
+    width: 565px;
+    height: 457px;
+    background-color: azure;
+    opacity: 0.8;
+    top: 293px;
+    left: 690px;
+    bottom: 61px;
+}
+
+.lblOtKoog{
+ position: absolute;
+    top: 18px;
+    left: 27px;
+}
+
+.lblPassw {
+    position: absolute;
+    top: 17px;
+    left: 367px;
+}
+
+.LblTema {
+    position: absolute;
+    top: 220px;
+    left: 253px;
+}
+
+.tbMail {
+    position: absolute;
+    top: 51px;
+    left: 7px;
+    bottom: 336px;
+}
+
+.tbPass {
+    position: absolute;
+    top: 51px;
+    left: 325px;
+}
+
+.TbText {
+    position: absolute;
+    top: 249px;
+    left: 22px;
+    height: 153px;
+    width: 531px;
+}
+
+.btSend {
+    position: absolute;
+    top: 481px;
+    left: 169px;
+    height: 64px;
+    width: 239px;
+}
+
+.lblTeeema {
+    position: absolute;
+    top: 132px;
+    left: 208px;
+}
+
+.TbTema {
+    position: absolute;
+    top: 170px;
+    left: 23px;
+    width: 521px;
+}
+
+.FileUpload1 {
+    position: absolute;
+    top: 416px;
+    left: 44px;
+}
